@@ -83,7 +83,8 @@ const AdminPage = () => {
               <tr key={materi.id}>
                 <td>{materi.id}</td>
                 <td>{materi.judul_vidio}</td>
-                <td>
+                <td>{materi.vidio_data}</td>
+                {/* <td>
                   <video width="400" height="200" controls>
                     <source
                       src={`http://localhost:8080/uploads/${materi.vidio_data}`}
@@ -91,7 +92,7 @@ const AdminPage = () => {
                     />
                     Your browser does not support the video tag.
                   </video>
-                </td>
+                </td> */}
                 <td>{materi.tanggal_upload}</td>
                 <td>
                   <Button

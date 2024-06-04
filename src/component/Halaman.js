@@ -81,7 +81,7 @@ function Halaman() {
         <iframe
           width="100%"
           height="315"
-          src="https://www.youtube.com/embed/6W7GSc2gVhk"
+          src="https://youtu.be/w6WPG2MvfxY?si=Bhdpw1dwgkNKKbPz"
           frameBorder="0"
           allowFullScreen
         ></iframe>
